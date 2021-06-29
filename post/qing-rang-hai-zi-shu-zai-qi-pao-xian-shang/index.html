@@ -1,13 +1,20 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" >
+
 <title>请让孩子输在起跑线上 | 个人网站</title>
-<link rel="shortcut icon" href="https://wuyuhuihui.github.io/favicon.ico?v=1624964570212">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://wuyuhuihui.github.io/favicon.ico?v=1624964702178">
 <link rel="stylesheet" href="https://wuyuhuihui.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="请让孩子输在起跑线上 | 个人网站 - Atom Feed" href="https://wuyuhuihui.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
@@ -15,82 +22,81 @@
 近年在教育领域对家长误导最严重的一句话是“别让孩子输在起跑线上。”一些家长由于担心自己的孩子输在起跑线上，通过各种培训班给孩子超前大满灌与其年龄不同步的知识，揠苗助长。
 倘若将人生形容为一场竞赛，“起跑线”的比喻是恰当的。但是，..." />
     <meta name="keywords" content="" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://wuyuhuihui.github.io">
-  <img class="avatar" src="https://wuyuhuihui.github.io/images/avatar.png?v=1624964570212" alt="">
-  </a>
-  <h1 class="site-title">
-    个人网站
-  </h1>
-  <p class="site-description">
-    温故而知新3333
-  </p>
-  <div class="menu-container">
-    
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://wuyuhuihui.github.io">
+        <img src="https://wuyuhuihui.github.io/images/avatar.png?v=1624964702178" class="site-logo">
+        <h1 class="site-title">个人网站</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
       
-        <a href="/" class="menu">
-          首页
-        </a>
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
       
-    
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
       
-        <a href="/archives" class="menu">
-          归档
-        </a>
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
       
-    
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
       
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
+    </div>
   </div>
-  <div class="social-container">
-    
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
+      
+    </div>
+    <div class="site-description">
+      温故而知新3333
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://wuyuhuihui.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
   </div>
 </div>
 
-        <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              请让孩子输在起跑线上
-            </h2>
-            <div class="post-info">
-              <span>
-                2021-06-29
-              </span>
-              <span>
-                4 min read
-              </span>
-              
-            </div>
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">请让孩子输在起跑线上</h2>
+            <div class="post-date">2021-06-29</div>
             
-            <div class="post-content-wrapper">
-              <div class="post-content">
-                <p>文/郑渊洁</p>
+            <div class="post-content" v-pre>
+              <p>文/郑渊洁</p>
 <p>近年在教育领域对家长误导最严重的一句话是“别让孩子输在起跑线上。”一些家长由于担心自己的孩子输在起跑线上，通过各种培训班给孩子超前大满灌与其年龄不同步的知识，揠苗助长。</p>
 <p>倘若将人生形容为一场竞赛，“起跑线”的比喻是恰当的。但是，“输在起跑线”上只适合短程竞赛，例如百米赛。如果是马拉松那样的长跑，就不存在输在起跑线上的担忧。相反，马拉松比赛赢在起跑线上的运动员，往往由于没有保存体力，致使起个大早，赶了晚集。</p>
 <p>由此可见，父母是否应该担心孩子输在起跑线上，要看家长对孩子寿命的预估。如果孩子的人生属于短跑，只有区区十几年，您一定不能让孩子输在起跑线上，都知道百米赛的关键往往是起跑，起跑领先了，就成功了一大半。但是假如家长对孩子的寿命预估较长，就相当于孩子的人生是参加一场马拉松长跑竞赛，起跑线是否领先就不重要了。马拉松竞赛的特点是谁笑在最后谁笑得最好。</p>
@@ -102,67 +108,36 @@
 <p>人的大脑一山不容二虎：在学龄前，想象力独占鳌头，脑子被想象力占据。上学后，大多数人的想象力将被知识驱逐出境，成为知识渊博但丧失想象力终身只能重复前人发现的知识的人。很少有人能让知识和想象力在自己的大脑里共存，一旦共存，此人就是能进行创造性劳动的成功人士了。在孩子童年时，让其晚接触知识，有利于想象力在孩子的大脑里安营扎寨，倘若孩子成为想象力和知识并存的人，您就能给大师当爹当娘了。</p>
 <p>请让孩子输在起跑线上。输在起跑线上，能赢得人生。赢在起跑线上，能输掉人生。欲将取之必先与之是大智慧。</p>
 
-              </div>
-              <div class="toc-container">
-                
-              </div>
             </div>
-          </article>
+            
+            
+
+            
+
+          </div>
+
         </div>
-
-        
-
-        
-
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="https://wuyuhuihui.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
       </div>
     </div>
 
-    <script>
-      hljs.initHighlightingOnLoad()
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
 
-      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+AOS.init();
 
-      // This should probably be throttled.
-      // Especially because it triggers during smooth scrolling.
-      // https://lodash.com/docs/4.17.10#throttle
-      // You could do like...
-      // window.addEventListener("scroll", () => {
-      //    _.throttle(doThatStuff, 100);
-      // });
-      // Only not doing it here to keep this Pen dependency-free.
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
-      window.addEventListener("scroll", event => {
-        let fromTop = window.scrollY;
+</script>
 
-        mainNavLinks.forEach((link, index) => {
-          let section = document.getElementById(decodeURI(link.hash).substring(1));
-          let nextSection = null
-          if (mainNavLinks[index + 1]) {
-            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-          }
-          if (section.offsetTop <= fromTop) {
-            if (nextSection) {
-              if (nextSection.offsetTop > fromTop) {
-                link.classList.add("current");
-              } else {
-                link.classList.remove("current");    
-              }
-            } else {
-              link.classList.add("current");
-            }
-          } else {
-            link.classList.remove("current");
-          }
-        });
-      });
 
-    </script>
+
+
+
+
   </body>
 </html>
