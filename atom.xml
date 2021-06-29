@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wuyuhuihui.github.io</id>
-    <title>Gridea</title>
-    <updated>2021-06-29T09:14:11.458Z</updated>
+    <title>个人网站</title>
+    <updated>2021-06-29T09:15:06.396Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wuyuhuihui.github.io"/>
     <link rel="self" href="https://wuyuhuihui.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
     <logo>https://wuyuhuihui.github.io/images/avatar.png</logo>
     <icon>https://wuyuhuihui.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, Gridea</rights>
+    <rights>All rights reserved 2021, 个人网站</rights>
     <entry>
         <title type="html"><![CDATA[请让孩子输在起跑线上]]></title>
         <id>https://wuyuhuihui.github.io/post/qing-rang-hai-zi-shu-zai-qi-pao-xian-shang/</id>
