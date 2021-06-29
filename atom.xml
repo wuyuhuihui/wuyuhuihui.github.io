@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wuyuhuihui.github.io</id>
     <title>个人网站</title>
-    <updated>2021-06-29T11:02:04.724Z</updated>
+    <updated>2021-06-29T11:03:27.439Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wuyuhuihui.github.io"/>
     <link rel="self" href="https://wuyuhuihui.github.io/atom.xml"/>
@@ -39,38 +39,6 @@
 <p>爱因斯坦说：“想象力比知识重要。”有想象力的人才能进行创造性劳动。想象力和知识是天敌。人在获得知识的过程中，想象力会消失。因为知识符合逻辑，而想象力无章可循。换句话说，知识的本质是科学，想象力的特征是荒诞。</p>
 <p>人的大脑一山不容二虎：在学龄前，想象力独占鳌头，脑子被想象力占据。上学后，大多数人的想象力将被知识驱逐出境，成为知识渊博但丧失想象力终身只能重复前人发现的知识的人。很少有人能让知识和想象力在自己的大脑里共存，一旦共存，此人就是能进行创造性劳动的成功人士了。在孩子童年时，让其晚接触知识，有利于想象力在孩子的大脑里安营扎寨，倘若孩子成为想象力和知识并存的人，您就能给大师当爹当娘了。</p>
 <p>请让孩子输在起跑线上。输在起跑线上，能赢得人生。赢在起跑线上，能输掉人生。欲将取之必先与之是大智慧。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://wuyuhuihui.github.io/post/hello-gridea/</id>
-        <link href="https://wuyuhuihui.github.io/post/hello-gridea/">
-        </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
 ]]></content>
     </entry>
 </feed>
